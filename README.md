@@ -104,7 +104,7 @@ copy ~/TWRP/twrpdtgen/output/samsung to /a12s-twrp/device
 Building
 ========
 
-
+export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
 lunch twrp_a12s-eng
 mka recoveryimage
